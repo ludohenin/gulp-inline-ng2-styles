@@ -1,7 +1,14 @@
-[![Dependency Status](http://img.shields.io/david/ludohenin/gulp-inline-ng2-styles.svg?style=flat-square)](https://david-dm.org/ludohenin/gulp-inline-ng2-styles)
-[![DevDependencies Status](http://img.shields.io/david/dev/ludohenin/gulp-inline-ng2-styles.svg?style=flat-square)](https://david-dm.org/ludohenin/gulp-inline-ng2-styles#info=devDependencies)
+# Moved to gulp-inline-ng2-template
 
-#gulp-inline-ng2-styles
+> see [gulp-inline-ng2-template](https://github.com/ludohenin/gulp-inline-ng2-template)
+
+This feature (style sheets inlining) as been implemented in plugin gulp-inline-ng2-template.
+
+***
+***
+***
+
+# gulp-inline-ng2-styles
 
 Inline Angular2 components style sheets into JavaScript ES5/ES6 and TypeScript files (and possibly more - not tested).
 This plugin uses the [ES6 template strings](https://github.com/lukehoban/es6features#template-strings) syntax by default _(which requires the use of a transpiler -typescript, babel, traceur- to produce valid ES5 files)_ but you can opt-in for ES5 one.
@@ -10,13 +17,13 @@ This is very convenient to bundle your components/application (avoid extra HTTP 
 
 __You may also check out:__ [gulp-inline-ng2-template](https://github.com/ludohenin/gulp-inline-ng2-template)
 
-#Installation
+# Installation
 
 ```bash
 npm install gulp-inline-ng2-styles --save-dev
 ```
 
-#Configuration
+# Configuration
 
 You can pass a configuration object to the plugin.
 ```javascript
@@ -27,7 +34,7 @@ defaults = {
 };
 ```
 
-#Example usage
+# Example usage
 
 ```javascript
 //...
@@ -41,7 +48,7 @@ return result.js
   .pipe(gulp.dest(PATH.dest));
 ```
 
-#How it works
+# How it works
 
 __hello.css__
 ```css
@@ -76,6 +83,6 @@ import {Component, View} from 'angular2/angular2';
 class Hello {}
 ```
 
-#Licence
+# Licence
 
 MIT
