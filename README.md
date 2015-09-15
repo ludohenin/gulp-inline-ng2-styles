@@ -4,8 +4,7 @@
 
 This feature (style sheets inlining) as been implemented in plugin gulp-inline-ng2-template.
 
-***
-***
+
 ***
 
 # gulp-inline-ng2-styles
